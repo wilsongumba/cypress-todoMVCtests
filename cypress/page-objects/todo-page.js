@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+
+//page objects with class
 export class TodoPage {
     navigate() {
       cy.visit('http://todomvc-app-for-testing.surge.sh/')
